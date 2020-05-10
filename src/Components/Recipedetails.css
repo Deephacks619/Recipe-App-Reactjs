@@ -1,0 +1,18 @@
+body{
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); 
+    
+}
+.total{
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    top:100px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.cont{
+    text-align: left;
+    margin-left: 20%;
+}

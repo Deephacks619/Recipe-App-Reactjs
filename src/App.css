@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); 
+}
+.body-part{
+  position: relative;
+  top:100px;
+}
+.search-form{
+  margin-top: 10px;
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-text{
+  width:50%;
+  border: none;
+  font-weight: bolder;
+  padding: 10px;
+  box-shadow: 0px 2px 7px;
+  margin-right: 5px;
+}
+.input-text,.search-button:focus{
+  outline: none;
+}
+.search-button{
+  margin-top: 1px;
+  background: lightcoral;
+  border: none;
+  padding: 11px 20px;
+  color: aliceblue;
+  box-shadow: 0px 2px 7px;
+  cursor: pointer;
+  font-weight: bolder;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.search-button:hover{
+  background-color: rgb(216, 149, 149);
+  color: black;
+}
+.search-button:active{
+  background-color: burlywood;
+}
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
